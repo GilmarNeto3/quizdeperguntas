@@ -69,7 +69,7 @@ public class Principal {
         q4.opcaoD= "d) Goiânia";
         q4.opcaoE= "e) Goiás Velho";
         q4.correta= "d";
-        q4.curiosidade ="";
+        q4.curiosidade ="Goiânia foi planejada para ser uma capital de 50 mil habitantes, mas hoje já tem mais de um milhão.";
 
         q4.escrevaQuestao();
         resp = q4.leiaResposta();
