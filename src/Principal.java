@@ -2,8 +2,7 @@ import java.util.Scanner;
 
 public class Principal {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int cont = 0;
+        new Scanner(System.in);
         String resp;
 
         System.out.println("*   FACULDADE ALFREDO NASSER   *");
@@ -24,9 +23,7 @@ public class Principal {
 
         q1.escrevaQuestao();
         resp = q1.leiaResposta();
-        if(q1.isCorreta(resp)){
-            cont++;
-        }
+        q1.isCorreta(resp);
         System.out.println(q1.curiosidade);
 
 
@@ -43,9 +40,7 @@ public class Principal {
 
         q2.escrevaQuestao();
         resp = q2.leiaResposta();
-        if(q2.isCorreta(resp)){
-            cont++;
-        }
+        q2.isCorreta(resp);
         Questao q3= new Questao();
         q3.pergunta = "Pergunta 3: Quantos minutos tem 24 horas?";
         q3.opcaoA= "a) 1140";
@@ -58,9 +53,7 @@ public class Principal {
 
         q3.escrevaQuestao();
         resp = q3.leiaResposta();
-        if(q3.isCorreta(resp)){
-            cont++;
-        }
+        q3.isCorreta(resp);
         Questao q4= new Questao();
         q4.pergunta = "Pergunta 4: Qual é a capital de Goiás?";
         q4.opcaoA= "a) Goianésia";
@@ -73,9 +66,7 @@ public class Principal {
 
         q4.escrevaQuestao();
         resp = q4.leiaResposta();
-        if(q4.isCorreta(resp)){
-            cont++;
-        }
+        q4.isCorreta(resp);
         Questao q5= new Questao();
         q5.pergunta = "Pergunta 5: Quem foi o primeiro a pisar na lua?";
         q5.opcaoA= "a) Neil Armstrong";
@@ -88,9 +79,7 @@ public class Principal {
 
         q5.escrevaQuestao();
         resp = q5.leiaResposta();
-        if(q5.isCorreta(resp)){
-            cont++;
-        }
+        q5.isCorreta(resp);
         Questao q6= new Questao();
         q6.pergunta = "Pergunta 6: Qual inseto mais poliniza as flores? ";
         q6.opcaoA= "a) Mosca";
@@ -103,9 +92,7 @@ public class Principal {
 
         q6.escrevaQuestao();
         resp = q6.leiaResposta();
-        if(q1.isCorreta(resp)){
-            cont++;
-        }
+        q1.isCorreta(resp);
         Questao q7= new Questao();
         q7.pergunta = "Pergunta 7: Qual o minério mais raro do mundo?";
         q7.opcaoA= "a) Bauxita";
@@ -118,9 +105,7 @@ public class Principal {
 
         q7.escrevaQuestao();
         resp = q7.leiaResposta();
-        if(q7.isCorreta(resp)){
-            cont++;
-        }
+        q7.isCorreta(resp);
         Questao q8= new Questao();
         q8.pergunta = "Pergunta 8: Quem fez o primeiro motor a diesel?";
         q8.opcaoA= "a) Rudolf Diesel";
@@ -133,9 +118,7 @@ public class Principal {
 
         q8.escrevaQuestao();
         resp = q8.leiaResposta();
-        if(q8.isCorreta(resp)){
-            cont++;
-        }
+        q8.isCorreta(resp);
         Questao q9= new Questao();
         q9.pergunta = "Pergunta 9: Quem inventou a lente de óculos?";
         q9.opcaoA= "a) Riccardo Romano";
@@ -148,9 +131,7 @@ public class Principal {
 
         q9.escrevaQuestao();
         resp = q9.leiaResposta();
-        if(q9.isCorreta(resp)){
-            cont++;
-        }
+        q9.isCorreta(resp);
         Questao q10= new Questao();
         q10.pergunta = "Pergunta 10: Quantos continentes existem na Terra?";
         q10.opcaoA= "a) 8";
@@ -163,9 +144,7 @@ public class Principal {
 
         q10.escrevaQuestao();
         resp = q10.leiaResposta();
-        if(q10.isCorreta(resp)){
-            cont++;
-        }
+        q10.isCorreta(resp);
         Questao q11= new Questao();
         q11.pergunta = "Pergunta 11: Quantos anos tem um século?";
         q11.opcaoA= "a) 1000";
@@ -178,9 +157,7 @@ public class Principal {
 
         q11.escrevaQuestao();
         resp = q11.leiaResposta();
-        if(q11.isCorreta(resp)){
-            cont++;
-        }
+        q11.isCorreta(resp);
         Questao q12= new Questao();
         q12.pergunta = "Pergunta 12: Quantas cordas tem um violão tradicional?";
         q12.opcaoA= "a) 4";
@@ -193,9 +170,7 @@ public class Principal {
 
         q12.escrevaQuestao();
         resp = q12.leiaResposta();
-        if(q12.isCorreta(resp)){
-            cont++;
-        }
+        q12.isCorreta(resp);
         Questao q13= new Questao();
         q13.pergunta = "Pergunta 13: Quantos lados tem um triângulo?";
         q13.opcaoA= "a) 5";
@@ -208,9 +183,7 @@ public class Principal {
 
         q13.escrevaQuestao();
         resp = q13.leiaResposta();
-        if(q13.isCorreta(resp)){
-            cont++;
-        }
+        q13.isCorreta(resp);
         Questao q14= new Questao();
         q14.pergunta = "Pergunta 14: O que é o DNA?";
         q14.opcaoA= "a) Ácido ribonucleico";
@@ -223,9 +196,7 @@ public class Principal {
 
         q14.escrevaQuestao();
         resp = q14.leiaResposta();
-        if(q14.isCorreta(resp)){
-            cont++;
-        }
+        q14.isCorreta(resp);
         Questao q15= new Questao();
         q15.pergunta = "Pergunta 15: Quem pintou a Mona Lisa?";
         q15.opcaoA= "a) Michelangelo";
@@ -238,9 +209,7 @@ public class Principal {
 
         q15.escrevaQuestao();
         resp = q15.leiaResposta();
-        if(q15.isCorreta(resp)){
-            cont++;
-        }
+        q15.isCorreta(resp);
 
     }
 
