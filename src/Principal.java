@@ -28,7 +28,6 @@ public class Principal {
         resp = q1.leiaResposta();
         if(q1.isCorreta(resp))
             cont++;
-
         System.out.println("-----------------");
         System.out.println(q1.curiosidade);
         System.out.println("-----------------");
@@ -50,7 +49,7 @@ public class Principal {
         if(q2.isCorreta(resp))
             cont++;
         System.out.println("-----------------");
-        System.out.println(q1.curiosidade);
+        System.out.println(q2.curiosidade);
         System.out.println("-----------------");
 
 
@@ -70,7 +69,7 @@ public class Principal {
         if(q3.isCorreta(resp))
             cont++;
         System.out.println("-----------------");
-        System.out.println(q1.curiosidade);
+        System.out.println(q3.curiosidade);
         System.out.println("-----------------");
 
 
@@ -89,7 +88,7 @@ public class Principal {
         if(q4.isCorreta(resp))
             cont++;
         System.out.println("-----------------");
-        System.out.println(q1.curiosidade);
+        System.out.println(q4.curiosidade);
         System.out.println("-----------------");
 
 
@@ -108,7 +107,7 @@ public class Principal {
         if(q5.isCorreta(resp))
             cont++;
         System.out.println("-----------------");
-        System.out.println(q1.curiosidade);
+        System.out.println(q5.curiosidade);
         System.out.println("-----------------");
 
 
@@ -127,7 +126,7 @@ public class Principal {
         if(q6.isCorreta(resp))
             cont++;
         System.out.println("-----------------");
-        System.out.println(q1.curiosidade);
+        System.out.println(q6.curiosidade);
         System.out.println("-----------------");
 
 
@@ -146,7 +145,7 @@ public class Principal {
         if(q7.isCorreta(resp))
             cont++;
         System.out.println("-----------------");
-        System.out.println(q1.curiosidade);
+        System.out.println(q7.curiosidade);
         System.out.println("-----------------");
 
 
@@ -165,7 +164,7 @@ public class Principal {
         if(q8.isCorreta(resp))
             cont++;
         System.out.println("-----------------");
-        System.out.println(q1.curiosidade);
+        System.out.println(q8.curiosidade);
         System.out.println("-----------------");
 
 
@@ -184,7 +183,7 @@ public class Principal {
         if(q9.isCorreta(resp))
             cont++;
         System.out.println("-----------------");
-        System.out.println(q1.curiosidade);
+        System.out.println(q9.curiosidade);
         System.out.println("-----------------");
 
 
@@ -203,7 +202,7 @@ public class Principal {
         if(q10.isCorreta(resp))
             cont++;
         System.out.println("-----------------");
-        System.out.println(q1.curiosidade);
+        System.out.println(q10.curiosidade);
         System.out.println("-----------------");
 
 
@@ -223,7 +222,7 @@ public class Principal {
         if(q11.isCorreta(resp))
             cont++;
         System.out.println("-----------------");
-        System.out.println(q1.curiosidade);
+        System.out.println(q11.curiosidade);
         System.out.println("-----------------");
 
 
@@ -242,7 +241,7 @@ public class Principal {
         if(q12.isCorreta(resp))
             cont++;
         System.out.println("-----------------");
-        System.out.println(q1.curiosidade);
+        System.out.println(q12.curiosidade);
         System.out.println("-----------------");
 
         Questao q13= new Questao();
@@ -260,7 +259,7 @@ public class Principal {
         if(q13.isCorreta(resp))
             cont++;
         System.out.println("-----------------");
-        System.out.println(q1.curiosidade);
+        System.out.println(q13.curiosidade);
         System.out.println("-----------------");
 
         Questao q14= new Questao();
@@ -278,7 +277,7 @@ public class Principal {
         if(q14.isCorreta(resp))
             cont++;
         System.out.println("-----------------");
-        System.out.println(q1.curiosidade);
+        System.out.println(q14.curiosidade);
         System.out.println("-----------------");
 
         Questao q15= new Questao();
@@ -296,7 +295,7 @@ public class Principal {
         if(q15.isCorreta(resp))
             cont++;
         System.out.println("-----------------");
-        System.out.println(q1.curiosidade);
+        System.out.println(q15.curiosidade);
         System.out.println("-----------------");
 
         double percentage = ((double) cont / 15.0) * 100;
