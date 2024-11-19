@@ -28,6 +28,8 @@ public class Principal {
         resp = q1.leiaResposta();
         if(q1.isCorreta(resp))
             cont++;
+
+        System.out.println("-----------------");
         System.out.println(q1.curiosidade);
         System.out.println("-----------------");
 
@@ -47,6 +49,7 @@ public class Principal {
         resp = q2.leiaResposta();
         if(q2.isCorreta(resp))
             cont++;
+        System.out.println("-----------------");
         System.out.println(q1.curiosidade);
         System.out.println("-----------------");
 
@@ -66,6 +69,7 @@ public class Principal {
         resp = q3.leiaResposta();
         if(q3.isCorreta(resp))
             cont++;
+        System.out.println("-----------------");
         System.out.println(q1.curiosidade);
         System.out.println("-----------------");
 
@@ -84,6 +88,7 @@ public class Principal {
         resp = q4.leiaResposta();
         if(q4.isCorreta(resp))
             cont++;
+        System.out.println("-----------------");
         System.out.println(q1.curiosidade);
         System.out.println("-----------------");
 
@@ -102,6 +107,7 @@ public class Principal {
         resp = q5.leiaResposta();
         if(q5.isCorreta(resp))
             cont++;
+        System.out.println("-----------------");
         System.out.println(q1.curiosidade);
         System.out.println("-----------------");
 
@@ -120,6 +126,7 @@ public class Principal {
         resp = q6.leiaResposta();
         if(q6.isCorreta(resp))
             cont++;
+        System.out.println("-----------------");
         System.out.println(q1.curiosidade);
         System.out.println("-----------------");
 
@@ -138,6 +145,7 @@ public class Principal {
         resp = q7.leiaResposta();
         if(q7.isCorreta(resp))
             cont++;
+        System.out.println("-----------------");
         System.out.println(q1.curiosidade);
         System.out.println("-----------------");
 
@@ -156,6 +164,7 @@ public class Principal {
         resp = q8.leiaResposta();
         if(q8.isCorreta(resp))
             cont++;
+        System.out.println("-----------------");
         System.out.println(q1.curiosidade);
         System.out.println("-----------------");
 
@@ -174,6 +183,7 @@ public class Principal {
         resp = q9.leiaResposta();
         if(q9.isCorreta(resp))
             cont++;
+        System.out.println("-----------------");
         System.out.println(q1.curiosidade);
         System.out.println("-----------------");
 
