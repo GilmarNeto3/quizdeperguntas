@@ -20,7 +20,7 @@ public class Principal {
         q1.opcaoD= "d) Golfinho";
         q1.opcaoE= "e) Tartaruga";
         q1.correta= "a";
-        q1.curiosidade ="Curiosidade: O título de ‘leão, o rei da selva’ não passa de uma antiga metáfora que se mantém até os dias atuais. A ideia surgiu na Grécia Antiga, 6 a.C. Os gregos colocavam os leões como representação de nobreza e bravura.";
+        q1.curiosidade ="Curiosidade: O título de leão, o rei da selva não passa de uma antiga metáfora que se mantém até os dias atuais. A ideia surgiu na Grécia Antiga, 6 a.C. Os gregos colocavam os leões como representação de nobreza e bravura.";
 
         q1.escrevaQuestao();
         resp = q1.leiaResposta();
@@ -39,7 +39,7 @@ public class Principal {
         q2.opcaoD= "d) Baleia Azul";
         q2.opcaoE= "e) Elefante";
         q2.correta= "d";
-        q2.curiosidade ="";
+        q2.curiosidade ="Ela é o maior animal do mundo e pode viver até 90 anos, sendo considerada a avó dos mares";
 
         q2.escrevaQuestao();
         resp = q2.leiaResposta();
