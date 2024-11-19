@@ -84,7 +84,7 @@ public class Principal {
         q5.opcaoD= "d) Theodore Brown";
         q5.opcaoE= "e)  Henry Miller";
         q5.correta= "a";
-        q5.curiosidade ="";
+        q5.curiosidade ="O primeiro passo na Lua foi dado com um pé tamanho 41. Este era o número da bota azul do astronauta Neil Armstrong";
 
         q5.escrevaQuestao();
         resp = q5.leiaResposta();
@@ -99,7 +99,7 @@ public class Principal {
         q6.opcaoD= "d) Vespas";
         q6.opcaoE= "e) Mariposas";
         q6.correta= "b";
-        q6.curiosidade ="";
+        q6.curiosidade ="Uma abelha melífera visita cerca de 7 mil flores por dia, mas são necessárias quatro milhões de visitas para produzir um quilo de mel";
 
         q6.escrevaQuestao();
         resp = q6.leiaResposta();
