@@ -202,6 +202,7 @@ public class Principal {
         resp = q10.leiaResposta();
         if(q10.isCorreta(resp))
             cont++;
+        System.out.println("-----------------");
         System.out.println(q1.curiosidade);
         System.out.println("-----------------");
 
@@ -221,6 +222,7 @@ public class Principal {
         resp = q11.leiaResposta();
         if(q11.isCorreta(resp))
             cont++;
+        System.out.println("-----------------");
         System.out.println(q1.curiosidade);
         System.out.println("-----------------");
 
@@ -239,6 +241,7 @@ public class Principal {
         resp = q12.leiaResposta();
         if(q12.isCorreta(resp))
             cont++;
+        System.out.println("-----------------");
         System.out.println(q1.curiosidade);
         System.out.println("-----------------");
 
@@ -256,6 +259,7 @@ public class Principal {
         resp = q13.leiaResposta();
         if(q13.isCorreta(resp))
             cont++;
+        System.out.println("-----------------");
         System.out.println(q1.curiosidade);
         System.out.println("-----------------");
 
@@ -273,6 +277,7 @@ public class Principal {
         resp = q14.leiaResposta();
         if(q14.isCorreta(resp))
             cont++;
+        System.out.println("-----------------");
         System.out.println(q1.curiosidade);
         System.out.println("-----------------");
 
@@ -290,19 +295,21 @@ public class Principal {
         resp = q15.leiaResposta();
         if(q15.isCorreta(resp))
             cont++;
+        System.out.println("-----------------");
         System.out.println(q1.curiosidade);
+        System.out.println("-----------------");
 
         double percentage = ((double) cont / 15.0) * 100;
         // Exibir o resultado final
-        System.out.println("-----------------");
+        System.out.println("--------------------------------------------------------------------");
         System.out.println("*   RESULTADO FINAL   *");
-        System.out.println("-----------------");
+        System.out.println("--------------------------------------------------------------------");
         System.out.println("Você acertou " + cont + " respostas.");
-        System.out.println("-----------------");
+        System.out.println("--------------------------------------------------------------------");
         System.out.println("Você errou " + (15-cont) + " respostas.");
-        System.out.println("-----------------");
+        System.out.println("--------------------------------------------------------------------");
         System.out.println("Porcentagem de acertos: " + String.format("%.2f", percentage) + "%");
-        System.out.println("-----------------");
+        System.out.println("--------------------------------------------------------------------");
 
         scanner.close();
     }
