@@ -4,6 +4,9 @@ public class Principal {
     public static void main(String[] args) {
         new Scanner(System.in);
         String resp;
+        int cont =0;
+
+        Scanner scanner = new Scanner(System.in);
 
         System.out.println("*   FACULDADE ALFREDO NASSER   *");
         System.out.println("*   Aluno: Gilmar Coelho de Andrade Neto  *");
@@ -23,8 +26,10 @@ public class Principal {
 
         q1.escrevaQuestao();
         resp = q1.leiaResposta();
-        q1.isCorreta(resp);
+        if(q1.isCorreta(resp))
+            cont++;
         System.out.println(q1.curiosidade);
+        System.out.println("-----------------");
 
 
 
@@ -40,20 +45,31 @@ public class Principal {
 
         q2.escrevaQuestao();
         resp = q2.leiaResposta();
-        q2.isCorreta(resp);
+        if(q2.isCorreta(resp))
+            cont++;
+        System.out.println(q1.curiosidade);
+        System.out.println("-----------------");
+
+
+
         Questao q3= new Questao();
         q3.pergunta = "Pergunta 3: Quantos minutos tem 24 horas?";
-        q3.opcaoA= "a) 1140";
+        q3.opcaoA= "a) 1440";
         q3.opcaoB= "b) 1240";
         q3.opcaoC= "c) 1340";
-        q3.opcaoD= "d) 1440";
+        q3.opcaoD= "d) 1140";
         q3.opcaoE= "e) 1540";
-        q3.correta= "d";
+        q3.correta= "a";
         q3.curiosidade ="A hora foi inventada pelos babilônios e egípcios, que foram os primeiros a marcar a passagem do tempo";
 
         q3.escrevaQuestao();
         resp = q3.leiaResposta();
-        q3.isCorreta(resp);
+        if(q3.isCorreta(resp))
+            cont++;
+        System.out.println(q1.curiosidade);
+        System.out.println("-----------------");
+
+
         Questao q4= new Questao();
         q4.pergunta = "Pergunta 4: Qual é a capital de Goiás?";
         q4.opcaoA= "a) Goianésia";
@@ -66,7 +82,12 @@ public class Principal {
 
         q4.escrevaQuestao();
         resp = q4.leiaResposta();
-        q4.isCorreta(resp);
+        if(q4.isCorreta(resp))
+            cont++;
+        System.out.println(q1.curiosidade);
+        System.out.println("-----------------");
+
+
         Questao q5= new Questao();
         q5.pergunta = "Pergunta 5: Quem foi o primeiro a pisar na lua?";
         q5.opcaoA= "a) Neil Armstrong";
@@ -79,7 +100,12 @@ public class Principal {
 
         q5.escrevaQuestao();
         resp = q5.leiaResposta();
-        q5.isCorreta(resp);
+        if(q5.isCorreta(resp))
+            cont++;
+        System.out.println(q1.curiosidade);
+        System.out.println("-----------------");
+
+
         Questao q6= new Questao();
         q6.pergunta = "Pergunta 6: Qual inseto mais poliniza as flores? ";
         q6.opcaoA= "a) Mosca";
@@ -92,7 +118,12 @@ public class Principal {
 
         q6.escrevaQuestao();
         resp = q6.leiaResposta();
-        q1.isCorreta(resp);
+        if(q6.isCorreta(resp))
+            cont++;
+        System.out.println(q1.curiosidade);
+        System.out.println("-----------------");
+
+
         Questao q7= new Questao();
         q7.pergunta = "Pergunta 7: Qual o minério mais raro do mundo?";
         q7.opcaoA= "a) Bauxita";
@@ -101,11 +132,16 @@ public class Principal {
         q7.opcaoD= "d) Urânio";
         q7.opcaoE= "e) Prata";
         q7.correta= "c";
-        q7.curiosidade ="";
+        q7.curiosidade ="E um cristal, encontrado na região de Mogov";
 
         q7.escrevaQuestao();
         resp = q7.leiaResposta();
-        q7.isCorreta(resp);
+        if(q7.isCorreta(resp))
+            cont++;
+        System.out.println(q1.curiosidade);
+        System.out.println("-----------------");
+
+
         Questao q8= new Questao();
         q8.pergunta = "Pergunta 8: Quem fez o primeiro motor a diesel?";
         q8.opcaoA= "a) Rudolf Diesel";
@@ -114,11 +150,16 @@ public class Principal {
         q8.opcaoD= "d) Richard Thomas";
         q8.opcaoE= "e) Bernard Richard";
         q8.correta= "a";
-        q8.curiosidade ="";
+        q8.curiosidade ="Os motor a diesel tem capacidade de produzir um alto torque em baixas rotações";
 
         q8.escrevaQuestao();
         resp = q8.leiaResposta();
-        q8.isCorreta(resp);
+        if(q8.isCorreta(resp))
+            cont++;
+        System.out.println(q1.curiosidade);
+        System.out.println("-----------------");
+
+
         Questao q9= new Questao();
         q9.pergunta = "Pergunta 9: Quem inventou a lente de óculos?";
         q9.opcaoA= "a) Riccardo Romano";
@@ -127,11 +168,16 @@ public class Principal {
         q9.opcaoD= "d) Alessandro Ricci";
         q9.opcaoE= "e) Nicolo Ferrari";
         q9.correta= "c";
-        q9.curiosidade ="";
+        q9.curiosidade ="As lentes escuras, como as verdes, marrons, pretas e cinzas, absorvem mais de 80% da luz.";
 
         q9.escrevaQuestao();
         resp = q9.leiaResposta();
-        q9.isCorreta(resp);
+        if(q9.isCorreta(resp))
+            cont++;
+        System.out.println(q1.curiosidade);
+        System.out.println("-----------------");
+
+
         Questao q10= new Questao();
         q10.pergunta = "Pergunta 10: Quantos continentes existem na Terra?";
         q10.opcaoA= "a) 8";
@@ -140,11 +186,17 @@ public class Principal {
         q10.opcaoD= "d) 6";
         q10.opcaoE= "e) 9";
         q10.correta= "b";
-        q10.curiosidade ="";
+        q10.curiosidade ="Com o movimento das placas tectônicas, a Pangeia dividiu-se inicialmente em duas partes: Gondwana e Laurásia. Daí em diante, as partes foram sendo fragmentadas, até assumirem a forma atual.";
 
         q10.escrevaQuestao();
         resp = q10.leiaResposta();
-        q10.isCorreta(resp);
+        if(q10.isCorreta(resp))
+            cont++;
+        System.out.println(q1.curiosidade);
+        System.out.println("-----------------");
+
+
+
         Questao q11= new Questao();
         q11.pergunta = "Pergunta 11: Quantos anos tem um século?";
         q11.opcaoA= "a) 1000";
@@ -153,11 +205,16 @@ public class Principal {
         q11.opcaoD= "d) 200";
         q11.opcaoE= "e) 10000";
         q11.correta= "b";
-        q11.curiosidade ="";
+        q11.curiosidade ="A divisão dos séculos foi inventada pelos europeus para substituir o tempo mítico por algo relacionado às práticas sociais e agrárias.";
 
         q11.escrevaQuestao();
         resp = q11.leiaResposta();
-        q11.isCorreta(resp);
+        if(q11.isCorreta(resp))
+            cont++;
+        System.out.println(q1.curiosidade);
+        System.out.println("-----------------");
+
+
         Questao q12= new Questao();
         q12.pergunta = "Pergunta 12: Quantas cordas tem um violão tradicional?";
         q12.opcaoA= "a) 4";
@@ -166,11 +223,15 @@ public class Principal {
         q12.opcaoD= "d) 6";
         q12.opcaoE= "e) 9";
         q12.correta= "d";
-        q12.curiosidade ="";
+        q12.curiosidade ="As cordas do violão podem ser feitas de vários materiais, como aço, nylon, níquel, prata, cobre, bronze, bronze/fósforo e latão.";
 
         q12.escrevaQuestao();
         resp = q12.leiaResposta();
-        q12.isCorreta(resp);
+        if(q12.isCorreta(resp))
+            cont++;
+        System.out.println(q1.curiosidade);
+        System.out.println("-----------------");
+
         Questao q13= new Questao();
         q13.pergunta = "Pergunta 13: Quantos lados tem um triângulo?";
         q13.opcaoA= "a) 5";
@@ -179,11 +240,15 @@ public class Principal {
         q13.opcaoD= "d) 9";
         q13.opcaoE= "e) 3";
         q13.correta= "e";
-        q13.curiosidade ="";
+        q13.curiosidade ="A palavra triângulo vem do latim triangulum, que é formado por tri, que significa três, e angulus, que significa ângulo";
 
         q13.escrevaQuestao();
         resp = q13.leiaResposta();
-        q13.isCorreta(resp);
+        if(q13.isCorreta(resp))
+            cont++;
+        System.out.println(q1.curiosidade);
+        System.out.println("-----------------");
+
         Questao q14= new Questao();
         q14.pergunta = "Pergunta 14: O que é o DNA?";
         q14.opcaoA= "a) Ácido ribonucleico";
@@ -192,11 +257,15 @@ public class Principal {
         q14.opcaoD= "d) Ácido nuclear de ribose";
         q14.opcaoE= "e) Ácido de nucleotídeos";
         q14.correta= "b";
-        q14.curiosidade ="";
+        q14.curiosidade ="Mais de 99% do DNA de todos os seres humanos é igual.";
 
         q14.escrevaQuestao();
         resp = q14.leiaResposta();
-        q14.isCorreta(resp);
+        if(q14.isCorreta(resp))
+            cont++;
+        System.out.println(q1.curiosidade);
+        System.out.println("-----------------");
+
         Questao q15= new Questao();
         q15.pergunta = "Pergunta 15: Quem pintou a Mona Lisa?";
         q15.opcaoA= "a) Michelangelo";
@@ -205,13 +274,29 @@ public class Principal {
         q15.opcaoD= "d) Donatello";
         q15.opcaoE= "e) Van Gogh";
         q15.correta= "c";
-        q15.curiosidade ="";
+        q15.curiosidade ="O quadro foi pintado entre 1503 e 1506, e mede 77 cm de altura por 53 cm de largura";
 
         q15.escrevaQuestao();
         resp = q15.leiaResposta();
-        q15.isCorreta(resp);
+        if(q15.isCorreta(resp))
+            cont++;
+        System.out.println(q1.curiosidade);
 
+        double percentage = ((double) cont / 15.0) * 100;
+        // Exibir o resultado final
+        System.out.println("-----------------");
+        System.out.println("*   RESULTADO FINAL   *");
+        System.out.println("-----------------");
+        System.out.println("Você acertou " + cont + " respostas.");
+        System.out.println("-----------------");
+        System.out.println("Você errou " + (15-cont) + " respostas.");
+        System.out.println("-----------------");
+        System.out.println("Porcentagem de acertos: " + String.format("%.2f", percentage) + "%");
+        System.out.println("-----------------");
+
+        scanner.close();
     }
+
 
 
 }
