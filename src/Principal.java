@@ -39,7 +39,7 @@ public class Principal {
         q2.opcaoD= "d) Baleia Azul";
         q2.opcaoE= "e) Elefante";
         q2.correta= "d";
-        q2.curiosidade ="Ela é o maior animal do mundo e pode viver até 90 anos, sendo considerada a avó dos mares";
+        q2.curiosidade ="Ela é o maior animal do mundo e pode viver até 90 anos, sendo considerada a avó dos mares.";
 
         q2.escrevaQuestao();
         resp = q2.leiaResposta();
